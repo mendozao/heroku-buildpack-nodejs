@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
+echo "This is running!"
 
 if [ -f main_client/package.json ]; then
   echo "Node.js"
